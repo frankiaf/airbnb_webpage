@@ -1,0 +1,21 @@
+section{
+    background-image: url(images/vitrine-1.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+}
+
+/* *********** Layout Responsivo *********** */
+
+@media screen and (max-width:850px) {
+
+    section{
+        background-image: url(images/vitrine-1.jpg);
+        width: 100%;
+        background-size:contain;
+        background-position: top;
+    }
+
+}
