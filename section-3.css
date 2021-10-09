@@ -4,6 +4,7 @@
     width: 85%;
     height: 250px;
     margin: auto;
+    
 }
 
 #section-03 h2{
@@ -15,17 +16,16 @@
 }
 
 #container-section-2{
-    display: flex; 
-    flex-direction: row;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-
 .box-area-2{
-    width: 388px;
-    height: 388px;
-    margin: 10px;
+    width: 380px;
+    height: 380px;
+    margin-bottom: 30px;
     border-radius: 10px;
-    background-color: blue;
 }
 
 .box-1-section-2 img{
@@ -55,34 +55,42 @@
     font-weight: 700;
 }
 
+/* *********** Layout Responsivo *********** */
 
-@media screen  and (max-width:1600px) {
-    .box-4-section-2{
-        display: none;
-    }
-    
-}
+@media screen and (max-width: 400px) {
 
-@media screen  and (max-width:1300px) {
-    .box-3-section-2{
-        display: none;
-    }
-    
-}
 
-@media screen  and (max-width:700px) {
-    .box-2-section-2{
-        display: none;
-    }
-    
-}
-
-@media screen  and (max-width:600px) {
     #container-section-2{
         display: flex;
-        flex-direction:column;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .box-area-2{
+        height: 300px;
+    }
+
+    .box-1-section-2 img{
+        border-radius: 10px;
+        width: 300px;
+    }
+    
+    .box-2-section-2 img{
+        border-radius: 10px;
+        width: 300px;
+    }
+    
+    .box-3-section-2 img{
+        border-radius: 10px;
+        width: 300px;
+    }
+    
+    .box-4-section-2 img{
+        border-radius: 10px;
+        width: 300px;
     }
 
     
-   
+    
 }
