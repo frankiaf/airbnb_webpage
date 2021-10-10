@@ -1,0 +1,60 @@
+#section-05{
+    width: 85%;
+    margin: auto;
+}
+
+#section-05 h2{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight:700;
+    font-size: 25px;
+}
+
+.box-area-5{
+    width: 510px;
+    height: 510px;
+    border-radius: 10px;
+    
+}
+
+#container-section-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+#box-1-section-5{
+    background-image: url(images/ovelha.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#box-2-section-5{
+    background-image: url(images/ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#box-3-section-5{
+    background-image: url(images/woman.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#section-05 p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+#section-05 h3{
+    margin-top: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight:700;
+    font-size: 20px;
+}
