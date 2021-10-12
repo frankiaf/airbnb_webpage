@@ -11,35 +11,14 @@
     font-size: 25px;
 }
 
-.box-area-5{
-    width: 510px;
-    height: 510px;
+.img-section-5{
     border-radius: 10px;
-    
+    width: 100%;
 }
 
 #container-section-5{
     display: flex;
-    justify-content: space-between;
-    gap: 30px; 
-}
-
-#box-1-section-5{
-    background-image: url(images/ovelha.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#box-2-section-5{
-    background-image: url(images/ipad.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-#box-3-section-5{
-    background-image: url(images/woman.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    gap: 17px; 
 }
 
 #section-05 p{
@@ -60,12 +39,6 @@
 /* *********** Layout Responsivo *********** */
 
 @media screen and (max-width:400px) {
-
-    .box-area-5{
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;  
-    }
 
     #container-section-5{
         display: flex;
