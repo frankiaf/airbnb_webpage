@@ -32,12 +32,16 @@ header{
     border: 1px solid #dddddd;
     outline: #b6b6b6;
     box-shadow: 2px 2px 3px #b6b6b633;
-    background-image: url(images/search-icon.png);
+    background-image: url(images/search-icon.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    background-position-x: 260px;
     padding-left: 26px;
     padding-right: 50px;
 }
+
+
+
 
 #search-menu:hover{
     box-shadow: 2px 2px 3px #b6b6b67a;
@@ -94,13 +98,12 @@ nav a:hover{
         border-radius: 23px;
         border: none;
         background-color: #f3f3f3cc;
+        background-image: none;
         box-shadow: none;
-        background-image: url(images/search-icon.png);
-        background-repeat: no-repeat;
-        background-position: right;
-        padding-left: 26px;
-        padding-right: 50px;
+        text-align: center;
     }
+
+   
 
     #search-menu:hover{
         box-shadow: none;
@@ -127,6 +130,7 @@ nav a:hover{
         bottom: 0;
         position: fixed;
         border-top: solid 1px rgb(238, 238, 238);
+        z-index: 2;
     }
 
     #menu-bottom-area p{
@@ -135,6 +139,7 @@ nav a:hover{
         font-size: 10px;
         font-weight: 700;
     }
+
 
     #menu-bottom-area a{
         color: black;
