@@ -52,3 +52,42 @@
   color: white;
 
 }
+
+/* *********** Layout Responsivo *********** */
+
+@media screen and (max-width:400px) {
+
+    #section-04{
+        padding-top:35px ;
+    }
+
+    #img-section-4{
+        margin: auto;
+        width: 97%;
+        background-image: url(images/background-section-4-mobile.jpg);
+        background-position: bottom;
+    }
+
+    #info-section-4{
+        text-align: center;
+        top: 50px;
+        left: 9%;
+        width: 250px;
+        height: 300px;
+    }
+    
+    #info-section-4 h2{
+        font-size: 25px;  
+    }
+    
+    #info-section-4 p{
+        font-size: 13px;
+        padding-top: 20px; 
+        padding-bottom: 30px;   
+        line-height: 18px;
+    }
+
+    #botao-section-4{
+        font-size: 15px;
+    }  
+}

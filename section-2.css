@@ -5,9 +5,7 @@
 
 #section-02{
     width: 85%;
-    height: 270px;
     margin: auto;
-    background-color: cyan;
 }
 
 #section-02 h2{
@@ -15,7 +13,7 @@
     margin-bottom: 30px;
     font-family: 'Mulish', sans-serif;
     font-weight:700;
-    font-size: 30px;
+    font-size: 28px;
 }
 .places-images{
     width: 65px;
@@ -23,7 +21,6 @@
 
 }
 #container{
-    background-color: darkblue;
     display:grid;
     grid-template: auto auto / auto auto auto auto;
     gap: 16px;
@@ -32,7 +29,7 @@
 .box-area{
     display: flex;
     flex-direction:row;
-    background-color: rgb(255, 120, 120);
+    width: 250px;
 }
 
 .cidades h3{
@@ -54,34 +51,15 @@
 
 /* *********** Layout Responsivo *********** */
 
-@media screen  and (max-width:1250px) {
-    .box-4{
-        display: none;
+@media screen  and (max-width:395px) {
+    #container{
+        overflow-x: scroll;
+        scroll-snap-type: proximity;
+        
     }
-    
-    .box-8{
-        display: none;
-    }
-    
-}
 
-@media screen  and (max-width:945px) {
-    .box-3{
+    #container::-webkit-scrollbar {
         display: none;
-    }
-    
-    .box-7{
-        display: none;
-    }
-    
-}
-
-@media screen  and (max-width:435px) {
-    .box-2{
-        display: none;
-    }
-    .box-6{
-        display: none;
-    }
-    
+      }
+      
 }
