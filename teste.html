@@ -6,31 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        nav{
-            width: 85%;
-            margin: auto;
-            display: flex;
-            justify-content: flex-start;
+        @keyframes changeColor{
+            0% {background-color: rgb(255, 0, 0); width: 1px;}
+            100%{background-color: rgb(102, 255, 0);width: 400px;}
         }
 
-        ul{
-            display: flex;
-            list-style: none;
-            gap: 30px;
+
+        .box{
+            width: 1px;
+            height: 30px;
+            border-radius: 80px;
+            position: absolute;
+            top: 9px;
+            animation: changeColor 3s linear 0s 1 normal forwards;
         }
+
+        .box-2{
+            width: 400px;
+            height: 30px;
+            border-radius: 80px;
+            border-style: solid;
+            border-color: darkgrey;
+            border-width: 1px;
+        
+          
+        }
+
+        #botao{
+           width: 150px;
+           height: 60px;
+            background-color: rgb(238, 238, 238);
+            border-radius: 20PX;
+            text-align: center;
+            line-height: 60PX;
+            transition-property: background-color;
+            transition-duration: 400ms;
+            cursor: pointer;
+            
+        }
+
+        #botao:hover{
+        
+            background-color: rgb(255, 0, 191);
+            color: aliceblue;
+
+           
+            
+        }
+
+
+
+        
+        
+
+        
+
+
+
 
     </style>
 </head>
 <body>
-    <nav>
-        <img src="images/logo-airbnb.svg" alt="">
-        <ul>
-            <li>Home</li>
-            <li>Contato</li>
-            <li>Sobre nós</li>
-        </ul>
+    <div class="box"></div>
+    <div class="box-2"></div>
+    <div id="botao">Click aqui</div>
+    
 
-    </nav>
+
     
 </body>
 </html>
