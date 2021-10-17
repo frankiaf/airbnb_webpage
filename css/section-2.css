@@ -29,14 +29,14 @@
 .cidades h3{
     padding-bottom: 10px;
     font-size: 17px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;
+    font-family: 'CircularStd-Medium';
+    
 }
 
 .cidades p{
-    font-family: 'Mulish', sans-serif;
+    font-family: 'CircularStd-Light';
     font-size: 17px;
-    font-weight: 400;
+   
 }
 
 .cidades{

@@ -3,14 +3,13 @@ hr{
     border-color: rgba(243, 243, 243, 0.377);
 }
 footer{
-    font-family: 'Mulish', sans-serif;
+    font-family: 'CircularStd-Light';
     width: 100%;
     background-color: #f7f7f7;
 }
 
 footer h3{
    font-size: 14px;
-   font-weight: 700;
    padding-bottom: 10px;
 }
 
@@ -98,7 +97,6 @@ footer p{
 
     footer h3{
         font-size: 10px;
-        font-weight: 700;
      }
      
      footer p{

@@ -6,9 +6,8 @@
 #section-05 h2{
     margin-top: 30px;
     margin-bottom: 25px;
-    font-family: 'Mulish', sans-serif;
-    font-weight:700;
-    font-size: 25px;
+    font-family: 'CircularStd-Medium';
+    font-size: 33px;
 }
 
 .img-section-5{
@@ -24,15 +23,13 @@
 #section-05 p{
     margin-top: 5px;
     font-size: 15px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 400;
+    font-family: 'CircularStd-Light';
     padding-bottom: 30px;
 }
 
 #section-05 h3{
     margin-top: 20px;
-    font-family: 'Mulish', sans-serif;
-    font-weight:700;
+    font-family: 'CircularStd-Medium';
     font-size: 20px;
 }
 
@@ -53,8 +50,7 @@
 
     #section-05 h3{
         margin-top: 20px;
-        font-family: 'Mulish', sans-serif;
-        font-weight:700;
+        font-family: var(--main-font);
         font-size: 20px;
         text-align: center;
     }
@@ -65,8 +61,7 @@
         width: 250px;
         margin-top: 10px;
         font-size: 15px;
-        font-family: 'Mulish', sans-serif;
-        font-weight: 400;
+        font-family: var(--main-font);
         padding-bottom: 30px;
         line-height: 18px;
     }

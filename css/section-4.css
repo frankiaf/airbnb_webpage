@@ -16,7 +16,7 @@
 }
 
 #info-section-4{
-    font-family: 'Mulish', sans-serif;
+    font-family: 'CircularStd-Medium';
     position: relative;
     top: 20%;
     left: 5%;
@@ -26,8 +26,7 @@
 
 #info-section-4 h2{
     color: white;
-    font-size: 4rem;
-    font-weight: 700;   
+    font-size: 4rem; 
 }
 
 #info-section-4 p{
@@ -40,7 +39,6 @@
 
 #botao-section-4{
     font-size: 18px;
-    font-weight: 800;
     background-color: white;
     padding: 15px 25px 15px 25px;
     border-radius: 10px;

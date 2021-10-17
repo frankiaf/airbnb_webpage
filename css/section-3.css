@@ -7,9 +7,8 @@
 
 #section-03 h2{
     margin-bottom: 25px;
-    font-family: 'Mulish', sans-serif;
-    font-weight:700;
-    font-size: 22px;
+    font-family: 'CircularStd-Medium';
+    font-size: 33px;
 }
 
 #container-section-2{
@@ -46,8 +45,7 @@
 #section-03 p{
     margin-top: 10px;
     font-size: 18px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;
+    font-family: 'CircularStd-Medium';
 }
 
 /* *********** Layout Responsivo *********** */
