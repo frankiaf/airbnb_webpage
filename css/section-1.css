@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
 
     #background-vitrine{
         background-image: url(../images/vitrine-02.jpg);
@@ -69,7 +69,7 @@
     }
 
     #area-button{
-        top: 230px;
+        top: 400px;
         width: 300px;
         line-height: 23px;
     }
